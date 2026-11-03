@@ -21,8 +21,8 @@ Compared with https://draculatheme.com/contribute and https://draculatheme.com/s
 - [x] `themes/dracula/gallery.json` is ready for a later pull request to [gitkraken/kepler-themes](https://github.com/gitkraken/kepler-themes).
 - [x] Family JSON parses, uses two-space indent, and ends with a newline.
 - [x] Checked with Kepler's gallery validator (`vendor/kepler-theme-check.mjs` from gitkraken/kepler-themes, Kepler `0.15.0`): no errors, no notices, no reserved ids, no contrast failures.
-- [ ] Remove `sample/` before filing the issue. It is here for development only.
-- [ ] Replace `screenshot.png` with a capture from the Kepler app if you can. The current image is a mock of Dracula Classic, drawn with the real palette, because this environment cannot launch Kepler.
+- [x] `sample/` is gone. Those template leftovers do not ship with this repository.
+- [x] `screenshot.png` is a real capture of GitKraken Kepler 0.16.0 on macOS with Dracula Classic (`dracula-classic`) active, showing the Todo dashboard.
 - [ ] After the Dracula team accepts the port, they transfer the repository into the organization. Update the contributors link in `README.md` if the repo moves to `dracula/kepler`.
 - [ ] Optional, after acceptance: open a pull request on gitkraken/kepler-themes that adds `themes/dracula/dracula.json` and `themes/dracula/gallery.json` only. That folder must not contain images or docs.
 
@@ -63,7 +63,7 @@ Line-highlight fallbacks from the spec (`#353747`, `#E2DECA`) are not theme toke
 
 ## Draft issue
 
-File this on https://github.com/dracula/dracula-theme/issues after `sample/` is removed and the screenshot is the one you want published. Do not file it from automation.
+File this on https://github.com/dracula/dracula-theme/issues. `sample/` is already gone, and `screenshot.png` is a real Kepler capture of Dracula Classic. Do not file it from automation.
 
 **Title**
 

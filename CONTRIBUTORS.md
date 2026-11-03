@@ -17,7 +17,6 @@ This repository is the Dracula port for GitKraken Kepler (the `schemaVersion` 2 
 - [`INSTALL.md`](INSTALL.md): Installation instructions to display on the website.
 - [`themes/dracula/dracula.json`](themes/dracula/dracula.json): The Kepler theme family. Dracula Classic and Alucard Classic live in this one file.
 - [`themes/dracula/gallery.json`](themes/dracula/gallery.json): Maintainer and tags for a later Kepler gallery pull request. Kepler does not load this file.
-- [`sample`](/sample/): Code samples in various languages to aid theme creation. (_Remove this folder before submission to the Dracula organization._)
 
 ### Screenshots
 
@@ -36,7 +35,7 @@ Themes on [draculatheme.com](https://draculatheme.com) show a preview image on t
 
 **Gallery:** when multiple images are present, the theme page renders an interactive gallery with thumbnails.
 
-This repository ships a single root `screenshot.png`: a Kepler-like mock of Dracula Classic. Replace it with a capture from the Kepler app before filing the Dracula submission if you can. Do not add a `screenshot/` folder unless you want the site to prefer those images over the root file.
+This repository ships a single root `screenshot.png`: a real capture of GitKraken Kepler 0.16.0 on macOS with Dracula Classic (`dracula-classic`) on the Todo dashboard. Do not add a `screenshot/` folder unless you want the site to prefer those images over the root file.
 
 Previously, default formatting settings were included. Now, we recommend preparing your theme with this command:
 
